@@ -3,224 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Portfolio</title>
-   <link rel="stylesheet"href="./stylesheet.css">
-   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-   
-    <!-- Bootstrap CSS -->
-    
+    <title>Sneha Ray - Portfolio</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <link rel="shortcut icon" href="assets/images/favicon/favicon-16x16.png" type="image">
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skill</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="main"> 
+
+    <section id="home" class="main">
         <div class="infoContainer">
             <div class="devInfo">
-                <h3 >Hello, It's Me</h3>
-                <h1 >Sneha Ray</h1>
-                <p >I'm a Digital Marketer
-                    <br>An energetic and goal-focused Digital Marketer who has a solid foundation in digital strategy,
-                     managing campaigns, and using data to drive marketing efforts.
-                </p>
+                <h3>Hello, It's Me</h3>
+                <h1>Sneha Ray</h1>
+                <p>I'm a Digital Marketer<br>An energetic and goal-focused Digital Marketer with a solid foundation in digital strategy, managing campaigns, and using data to drive marketing efforts.</p>
                 <div class="sci">
-                <div id="home-sci">
                     <a href="#"><i class='bx bxl-facebook-square'></i></a>
                     <a href="#"><i class='bx bxl-instagram'></i></a>
                     <a href="#"><i class='bx bxl-whatsapp'></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                </div>  
-            </div>
-            <a href="#" class="btn-box">More About Me</a>
-            </div>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="#about" class="btn-box">More About Me</a>
             </div>
             <div class="devPic">
-              
+                <!-- Add your image here -->
+            </div>
         </div>
     </section>
 
-
-
-    <section>
-        <section class="about" id="about">
-           
-            <div class="about-text">
-                <h2>About<span>Me</span></h2>
-                <h4> Digital Marketer </h4>
-                <p>successfully obtained my Bachelor of Commerce (B.Com) degree and have also completed a digital marketing course through Internshala. I possess 1.6 years of experience in the corporate sector, which includes a dedicated 6-month internship focused on digital marketing.
-
-Dynamic and results-oriented Digital Marketer with a strong foundation in digital strategy, campaign management, and data-driven marketing. My expertise spans across SEO, SEM, social media marketing, content marketing, email marketing, and performance analytics. With a Bachelor’s degree in Commerce (Finance Honors), I did analytical thinking and problem-solving to the digital marketing.
-
-I have adapting the environments and enjoy taking on new challenges to drive brand awareness, customer engagement, and revenue growth. My soft skills, such as team collaboration, communication, adaptability, and attention to detail, enable me to work effectively with cross-functional teams and deliver the results.
-
-Technical Skills:
-
-SEO & SEM: Google Analytics, Google Ads, SEMrush, Ahrefs, Keyword Research
-
-Social Media Marketing: Facebook Ads, Instagram Ads, LinkedIn Ads, TikTok Ads
-
-Content Marketing: Blogging, Copywriting, Content Strategy
-
-Email Marketing: Mailchimp, Klaviyo, Campaign Management
-
-Performance Tracking: Google Tag Manager, Data Visualization, A/B Testing
-
-Tools: Canva, HubSpot, Hootsuite, Trello, Asana
-
-Soft Skills:
-
-Teamwork & Collaboration
-
-Problem-Solving
-
-Adaptability
-
-Strong Communication
-
-Time Management
-                </p>
-                   
-                        <a href="#" class="box">More About Me</a>
-                    
-                   </div>
-                </div>
-            </div>
-        </section>
+    <section id="about" class="about">
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Digital Marketer</h4>
+            <p>I have successfully obtained my Bachelor of Commerce (B.Com) degree and completed a digital marketing course through Internshala. With 1.6 years of corporate experience, including a 6-month internship in digital marketing, I bring a strong foundation in digital strategy, campaign management, and data-driven marketing.</p>
+            <a href="#skills" class="box">More About Me</a>
+        </div>
     </section>
-            
-<section id="skills">
-    <div class="container">
-        <div class="bar"></div>
-        <h1 style="color: aqua;">Skills</h1>
-        <div class="row">
-            <div class="xd" data-label="SEO & SEM">
-                <span class="value" style="width:80%;"></span>
-            </div>
-            <div class="seo" data-label="Social Media Marketing">
-                <span class="value" style="width:85%;"></span>
-            </div>
-            <div class="li" data-label="Content Marketing">
-                <span class="value" style="width:75%;"></span>
-            </div>
-            <div class="sea" data-label="Email Marketing">
-                <span class="value" style="width:90%;"></span>
-            </div>
-            <div class="ps" data-label="Performance Tracking">
-                <span class="value" style="width:95%;"></span>
-            </div>
-            <div class="mt" data-label="Marketing">
-                <span class="value" style="width:65%;"></span>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h1>Skills</h1>
+            <div class="skill-bars">
+                <div class="bar" data-label="SEO & SEM"><span style="width: 80%;"></span></div>
+                <div class="bar" data-label="Social Media Marketing"><span style="width: 85%;"></span></div>
+                <div class="bar" data-label="Content Marketing"><span style="width: 75%;"></span></div>
+                <div class="bar" data-label="Email Marketing"><span style="width: 90%;"></span></div>
+                <div class="bar" data-label="Performance Tracking"><span style="width: 95%;"></span></div>
+                <div class="bar" data-label="Marketing"><span style="width: 65%;"></span></div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
-<section>
-    <div id="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
+                <!-- Repeat this block for each project -->
                 <div class="work">
-                    <img src="img/qu.jpeg">
+                    <img src="img/qu.jpeg" alt="Project 1">
+                    <div class="layer">
+                        <h3>EdTech 3R Funnel for IQUANTA</h3>
+                        <p>Designed and optimized landing pages and automated email sequences.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
                 </div>
-<div class="layer">
-    <h3>EdTech 3R Funnel for IQUANTA(Jan 2025 - Feb 2025)</h3>
-    <p>Designed and optimized landing pages and automated email sequences.
-Managed paid advertising and social media strategies to effectively reach and engage potential students.
-Organized webinars, interactive sessions, and community events that fostered strong mentorship and networking opportunities.Leveraged testimonials and strategic partnerships to build trust and improve conversion rates.
-    </p>
-    <a href="https://training-uploads.internshala.com/lead-engage-sell-dm-pgc/uploads/projects/v_1/4418619/f1ajhxvsxez-3044453.zip"><i class='bx bx-link-external' style='color:#21dfe5'  ></i></a>
-</div>
-                <div class="work">
-                    <img src="">
-                </div>
-                <div class="layer">
-                    <h3>Google Analytics: Sales Growth Insights(Feb 2025 - Feb 2025)</h3>
-                    <p>Analyzed Google Analytics data to evaluate 3-month sales performance and project user growth, identifying key trends and patterns. Reported underperforming products over the past 6 months, offering valuable insights for strategic decision-making. Monitored essential conversion metrics to develop targeted marketing strategies aimed at improving sales performance. Provided actionable recommendations to optimize product performance and drive overall growth, leveraging data analysis to support business objectives.
-                    </p>
-                    <a href="https://training-uploads.internshala.com/google-analytics-dm-pgc/uploads/projects/v_1/4418620/5007lrlmmr7-1880339.zip"><i class='bx bx-link-external' style='color:#21dfe5'  ></i></a>
-                </div>
-
-                <div class="work">
-                    <img src="img/2.jpeg">
-                </div>
-<div class="layer">
-    <h3>Elevated a Beauty Brand (MYGLAMM)through SMO
-(Jan 2025 - Jan 2025)</h3>
-    <p>Conducted a detailed audit of MyGlamm's social media presence across Instagram, Facebook, YouTube, and Twitter, identifying strengths, weaknesses, and opportunities for growth.
-Developed a structured content calendar to ensure consistent posting schedules across platforms.
-Implemented strategies to boost user-generated content, influencer collaborations, and interactive campaigns.
-    </p>
-    <a href="https://training-uploads.internshala.com/audiencs-dm-pgc/uploads/projects/v_1/4418617/d9jtb6hvevl-2978658.zip"><i class='bx bx-link-external' style='color:#21dfe5'  ></i></a>
-</div>
-
-                <div class="work">
-                    <img src="img/3.jpeg">
-                </div>
-                <div class="layer">
-                    <h3>Social Media Plan for Urban Jungle</h3>
-                    <p>Designed and executed a detailed social media content calendar strategy to increase brand awareness and online sales.
-Managed sponsored posts, product reviews, and giveaways, leveraging their audience to drive engagement and sales.
-Implemented Paid Campaign idea and remarketing.
-                    </p>
-                    <a href="https://training-uploads.internshala.com/paid-smm-dm-pgc/uploads/projects/v_1/4418618/3fm0vbq7spk-2812486.zip"><i class='bx bx-link-external' style='color:#21dfe5'  ></i></a>
-                </div>
-                <div class="work">
-                    <img src="img/4.jpeg">
-                </div>
-                
-                <div class="layer">
-                    <h3>Implemented Google Ads(Nov 2024 - Dec 2024)</h3>
-                    <p>Conducted audience segmentation, targeting demographic
-Created and managed two Google Ads campaigns
-Tracked key performance indicators (KPIs) such as CPC, CTR, conversion rates, and quality scores to optimize campaign performance followed by bidding strategy.
-                    </p>
-                    <a href="https://training-uploads.internshala.com/search-engine-dm-pgc/uploads/projects/v_1/4418616/jhuwtqa86xb-6634695.zip"><i class='bx bx-link-external' style='color:#21dfe5'  ></i></a>
-                </div>
-                <div class="work">
-                    <img src="img/5.jpeg">
-                </div>
+                <!-- Add more projects here -->
             </div>
         </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <a href="mailto:sneharay446@gmail.com" class="btn btn--outline">Email me</a>
+    </section>
+
+    <footer class="footer">
+        <p>Created By Sneha Ray</p>
+    </footer>
+
+    <div class="scroll-top">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
     </div>
-</section>
 
-
-<section class="section contact center" id="contact">
-    <h2 class="section__title">Contact</h2>
-    <a href="sneharay446@gmail.com">
-      <span class="btn btn--outline">Email me</span>
-    </a>
-
-<footer class="footer">
-  <a
-    href="https://github.com/rajshekhar26/cleanfolio-minimal"
-    class="link footer__link"
-  >
-</a ><div class="box">
-    Created By Sneha Ray
-
-</div>
-    
-</footer>
-</section>
-<div class="scroll-container">
-<div class="scroll-top">
-  <a aria-label="Scroll up" href="#top">
-    <i aria-hidden="true" class="fas fa-arrow-up"></i>
-  </a>
-</div>
-</div>
+    <script src="./main.js"></script>
 </body>
 </html>
-<script src="./main.js"></script>
