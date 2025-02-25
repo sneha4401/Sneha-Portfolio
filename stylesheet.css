@@ -222,11 +222,13 @@ body {
 
 
 .about{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
+    
+    padding: 50px;
+    text-align: justify;
+    display: inline-block;
+    /* grid-template-columns: repeat(2, 1fr); */
     align-items: center;
     background-color: rgb(12, 33, 87);
-    /* gap: 1.Srem; */
   }
   
   .about-img img{
